@@ -423,7 +423,10 @@ fun HighlightSection(
     LazyRow(
         modifier = modifier
     ) {
-        items(highlights.size) {index->
+        items(
+            highlights.size
+
+        ) {index->
             Column(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Center,
